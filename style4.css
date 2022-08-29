@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background: #161623;
+}
+
+h1 {
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    color: #f00;
+}
+
+h2 {
+    position: relative;
+    top: 180px;
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+hr {
+    position: relative;
+    top: 40px;
+    left: 680px;
+    width: 178px;
+}
+
+.form {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 350px;
+    height: 420px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+form input {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    margin: 5px;
+    width: 280px;
+    height: 30px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    background: linear-gradient(45deg, white, magenta, yellow, lime);
+}
+
+form textarea {
+    position: relative;
+    top: 20px;
+    left: 33px;
+    width: 280px;
+    height: 200px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    background: linear-gradient(45deg, magenta, yellow, green, lime);
+    padding: 15px;
+}
+
+form input[type="submit"] {
+    position: relative;
+    left: 120px;
+    padding: 5px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    top: 350px;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: grid;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .contener {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer .contener .sec {
+    margin-right: 30px;
+}
+
+footer .contener .sec.aboutus {
+    width: 60%;
+}
+
+footer .contener h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 205px;
+}
+
+footer p {
+    color: #999;
+}
+
+.scii {
+    margin-top: 20px;
+    display: flex;
+}
+
+.scii li {
+    list-style: none;
+}
+
+.scii li a {
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.scii li a:hover {
+    background: #f00;
+}
+
+.scii li a .bx {
+    color: #fff;
+    font-size: 20px;
+}
+
+.quickLinks {
+    position: relative;
+    width: 25%;
+}
+
+.quickLinks ul li {
+    list-style: none;
+}
+
+.quickLinks ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.quickLinks ul li a:hover {
+    color: #fff;
+}
+
+.contact {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span {
+    color: #999;
+}
+
+.contact .info li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.contact .info li a:hover {
+    color: #fff;
+}
+
+.copyrightText {
+    position: relative;
+    top: 340px;
+    width: 100%;
+    background: #181818;
+    padding: 8px 10px;
+    text-align: center;
+    color: #999;
+}
+@media(max-width:600px){
+    h1 {
+        position: relative;
+        top: 30px;
+        display: flex;
+        justify-content: center;
+        color: #f00;
+    }
+    hr {
+        position: relative;
+        top: 40px;
+        left: 220px;
+        width: 178px;
+    }
+    .contact .info li a {
+        color: #999;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .contact h2{
+        position: relative;
+        left: 50px;
+    }
+}
+
+
+
+@media(max-width:400px){
+    h1 {
+        position: relative;
+        top: 30px;
+        display: flex;
+        justify-content: center;
+        color: #f00;
+    }
+    hr {
+        position: relative;
+        top: 40px;
+        left: 120px;
+        width: 178px;
+    }
+    .contact .info li a {
+        position: relative;
+        left: -60px;
+        color: #999;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .contact h2{
+        position: relative;
+        left: 15px;
+    }
+    footer {
+        position: relative;
+        top: 350px;
+        width: 400px;
+        height: auto;
+        padding: 3px 15px;
+        background: #111;
+        display: grid;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .sec.aboutus p{
+        font-size: 12px;
+    }
+    .quickLinks a{
+        position: relative;
+        left: -40px;
+        bottom: 17px;
+        font-size: 15px;
+    }
+    .quickLinks h2{
+        position: relative;
+        left: -25px;
+        font-size: 16px;
+    }
+    .contact h2{
+        position: relative;
+        left: -10px;
+        font-size: 16px;
+    }
+    .sec.aboutus h2{
+        font-size: 16px;
+    }
+    .malumot{
+        position: relative;
+        left: -45px;
+        font-size: 15px;
+    }
+    .scii li a {
+        position: relative;
+        left: 10px;
+        top: -5px;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: #222;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+    
+form {
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 24px;
+    overflow: hidden;
+}
+form input {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    margin: 5px;
+    width: 220px;
+    height: 30px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    background: linear-gradient(45deg, white, magenta, yellow, lime);
+}
+
+form textarea {
+    position: relative;
+    top: 20px;
+    left: 28px;
+    width: 220px;
+    height: 200px;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    background: linear-gradient(45deg, magenta, yellow, green, lime);
+    padding: 15px;
+}
+
+form input[type="submit"] {
+    position: relative;
+    left: 90px;
+    padding: 5px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+}

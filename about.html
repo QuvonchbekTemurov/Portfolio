@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="/Css/style2.css">
+</head>
+<body>
+                    <!-- FACTS -->
+
+
+    <section class="section">
+        <h1>About </h1>
+        <hr>
+        <h3>Facts</h3>
+        <div class="section__main">
+          
+           <div class="section-main__card1">
+            <h2>01</h2>
+            <h6>Quvonchbek Temurov 2007-yil 1-yanvar kuni Samarqand
+                viloyati Nurobod tumanida tug'ilgan. Hozirda 15 yoshda 40-maktabning 9-sinfida o'qiydi.
+                Front-end dasturlashga 2020-yilda qiziqib boshlagan.
+                Hozirda esa Junior Front-end dasturchi!
+            </h6>
+           </div> 
+
+           <div class="section-main__card2">
+           <h2>02</h2>
+           <h6>
+                Quvonchbek avval you tubedan vedio darslardan tayyorlanib boshladi
+                keyinchalik esa Nuroboddagi IT Centerda Front-end yo'nalishi 
+                bo'yicha kursga qabul qilinib o'qishni boshladi.
+                Kursda 6 oy o'qib chiqdi va Front-end texnalogiyalarini yaxshi 
+                o'zlashtirdi!
+           </h6>
+           </div> 
+
+           <div class="section-main__card3">
+          <h2>03</h2>
+          <h6>
+                Quvonchbekni kelajakdagi rejalari yaxshi IT kompaniyaga 
+                ishga kirib o'zini bilimini yanada boyitish va jamoa bilan ishlashni o'rganish real loyhalarda 
+                ishtirok etish!
+                
+          </h6>
+           </div> 
+        </div>
+    </section>
+                   <!-- SKILLS -->
+
+
+    <div class="skills">
+        <h3>Skills</h3>
+<div class="skills__cards">
+    <div class="skills-cards__card1">
+        <p>HTML</p>
+        <div class="div"><div class="div2"></div></div>
+                </div>
+                <div class="skills-cards__card1">
+        <p>CSS</p>
+        <div class="div"><div class="div3"></div>
+                </div>
+                <div class="skills-cards__card1">
+        <p>Java Script</p>
+        <div class="div"><div class="div4"></div>
+                </div>
+                <div class="skills-cards__card1">
+        <p>Sass</p>
+        <div class="div"><div class="div5"></div>
+                </div>
+                <div class="skills-cards__card1">
+        <p>React</p>
+        <div class="div"><div class="div6"></div>
+                </div>
+                <div class="skills-cards__card1">
+        <p>JQuarey</p>
+        <div class="div"><div class="div6"></div>
+                </div>
+</div>
+    </div>
+
+                    <!-- I AM -->
+
+<section>
+        <div class="about">
+                <h3>I am ...</h3>
+                <div class="about__card">
+                        <div class="about-card__card1">
+                                <p>Name: Quvonchbek;</p>
+                                <p>Surname: Temurov;</p>
+                                <p>Age: 15;</p>
+                                <p>Region: Samarqand;</p>
+                                <p>Fog: Nurobod;</p>
+                                <p>Village: Ravotli;</p>
+                        </div>
+        
+                        <div class="about-card__card2">
+                            <p>
+                                Language: English(B2);
+                            </p>
+                            <p>
+Language2: Russia(Malumot O'qish Darajasida);
+                            </p>
+                        </div>
+                        
+                        <div class="about-card__card3">
+        <p>Education: Nurobod IT center;</p>
+        <p>Certificate: Exists;</p>
+        <p>Uzcoder Certificate: Exists;</p>
+                        </div>
+                </div>
+        </div>
+</section>
+<button class="btn1"></button>
+<button class="btn2"></button>
+<button class="btn3"></button>
+
+<script>
+        let body = document.querySelector("body");
+        let button1 = document.querySelector(".btn1");
+        let button2 = document.querySelector(".btn2");
+        let button3 = document.querySelector(".btn3");
+        let card1 = document.querySelector(".about-card__card1");
+        let card2 = document.querySelector(".about-card__card2");
+        let card3 = document.querySelector(".about-card__card3");
+button1.addEventListener("mousemove", ()=>{
+        card1.style.transform = "scale(1.2)";
+        card2.style.transform = "scale(1)";
+        card3.style.transform = "scale(1)";
+        button1.style.background = "#fff";
+        button2.style.background = "black";
+        button3.style.background = "black";
+});
+button2.addEventListener("mousemove", ()=>{
+        card2.style.transform = "scale(1.2)";
+        card1.style.transform = "scale(1)";
+        card3.style.transform = "scale(1)";
+        button2.style.background = "#fff";
+        button1.style.background = "black";
+        button3.style.background = "black";
+});
+button3.addEventListener("mousemove", ()=>{
+        card3.style.transform = "scale(1.2)";
+        card2.style.transform = "scale(1)";
+        card1.style.transform = "scale(1)";
+        button3.style.background = "#fff";
+        button2.style.background = "black";
+        button1.style.background = "black";
+});
+
+</script>
+</body>
+</html>

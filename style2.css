@@ -1,0 +1,569 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    width: 100%;
+    height: 2100px;
+    background: rgba(37, 43, 56, 0.9);
+    font-family: cursive;
+    
+}
+.section h1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section hr{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 140px;
+    left: 690px;
+}
+.section h3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 60px;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section__main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px;
+    gap: 20px;
+}
+.section-main__card1{
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 24px;
+    box-shadow:3px 3px 2px white;
+    transition: 0.5s;
+    transform: scale(1);
+}
+.section-main__card1:hover{
+transform: scale(1.1);
+}
+.section-main__card2:hover{
+transform: scale(1.1);
+}
+.section-main__card3:hover{
+transform: scale(1.1);
+}
+.section-main__card1 h2{
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    font-size: 40px;
+}
+.section-main__card2{
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 24px;
+    box-shadow:3px 3px 2px white ;
+    transition: 0.5s;
+    transform: scale(1);
+}
+.section-main__card2 h2{
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    font-size: 40px;
+}
+.section-main__card3{
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 24px;
+    box-shadow:3px 3px 2px white ;
+    transition: 0.5s;
+    transform: scale(1);
+}
+.section-main__card3 h2{
+    display: flex;
+    justify-content: center;
+    opacity: 0.5;
+    font-size: 40px;
+}
+.skills h3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.skills__cards{
+    position: relative;
+    top: 90px;
+    left: 30%;
+    background: white;
+    width: 700px;
+    height: 350px;
+    border-radius: 12px;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+.div{
+    width: 400px;
+    height: 15px;
+    border-radius: 24px;
+    background: aqua;
+}
+.div2{
+    position: relative;
+    width: 27px;
+    height: 15px;
+    background: blue ;
+    left: 390px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.div2::after{
+    content: "90%";
+    position: relative;
+    top: -6px;
+    left: 35px;
+}
+.div3{
+    position: relative;
+    width: 40px;
+    height: 15px;
+    background: blue ;
+    left: 380px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.div3::after{
+    content: "80%";
+    position: relative;
+    top: -6px;
+    left: 45px;
+}
+.div4{
+    position: relative;
+    width: 45px;
+    height: 15px;
+    background: blue ;
+    left: 375px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.div4::after{
+    content: "75%";
+    position: relative;
+    top: -6px;
+    left: 48px;
+}
+.div5{
+    position: relative;
+    width: 50px;
+    height: 15px;
+    background: blue ;
+    left: 371px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.div5::after{
+    content: "70%";
+    position: relative;
+    top: -6px;
+    left: 53px;
+}
+.div6{
+    position: relative;
+    width: 60px;
+    height: 15px;
+    background: blue ;
+    left: 360px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.div6::after{
+    content: "60%";
+    position: relative;
+    top: -6px;
+    left: 66px;
+}
+.about h3{
+position: relative;
+display: flex;
+justify-content: center;
+top: 200px;
+}
+.about__card{
+    display: flex;
+    justify-content: space-evenly;    
+    gap: 20px; 
+}
+.about-card__card1{
+    position: relative;
+    top: 300px;
+    width: 900px;
+    height: 400px;
+    background: aquamarine;
+    border-radius: 24px;
+    transform: scale(1);
+    transition: 1s;
+}
+.about-card__card1 p{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-family: cursive;
+}
+.about-card__card2 p{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-family: cursive;
+}
+.about-card__card3 p{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-family: cursive;
+}
+.about-card__card2{
+    position: relative;
+    top: 300px;
+    width: 900px;
+    height: 400px;
+    background: aquamarine;
+    border-radius: 24px;
+    transform: scale(1);
+    transition: 1s;
+}
+.about-card__card3{
+    position: relative;
+    top: 300px;
+    width: 900px;
+    height: 400px;
+    background: aquamarine;
+    border-radius: 24px;
+    transform: scale(1);
+    transition: 1s;
+}
+button{
+    border: none;
+    outline: none;
+    position: relative;
+    left: 260px;
+    width:20px;
+    height: 20px;
+    top: 400px;
+    background: black;
+    border-radius: 50px;
+}
+@media(max-width:600px){
+    .section h1{
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .section hr{
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 140px;
+        left: 230px;
+    } 
+    .section-main__card1{
+        padding: 20px;
+        width: 500px;
+        height: 500px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 24px;
+        box-shadow:3px 3px 2px white;
+        transition: 0.5s;
+        transform: scale(1);
+    }
+    .section-main__card1 h6{
+        position: relative;
+        font-size: 10px;
+    }
+    .section-main__card2{
+        padding: 20px;
+        width: 500px;
+        height: 500px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 24px;
+        box-shadow:3px 3px 2px white ;
+        transition: 0.5s;
+        transform: scale(1);
+    }
+    .section-main__card2 h6{
+        position: relative;
+        font-size: 10px;
+    }
+    .section-main__card3{
+        padding: 20px;
+        width: 500px;
+        height: 500px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 24px;
+        box-shadow:3px 3px 2px white ;
+        transition: 0.5s;
+        transform: scale(1);
+    }
+    .section-main__card3 h6{
+        position: relative;
+        font-size: 10px;
+    }
+    .skills__cards{
+        position: relative;
+        top: 90px;
+        left: 8%;
+        background: white;
+        width: 500px;
+        height: 310px;
+        border-radius: 12px;
+        padding: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.2rem;
+    }
+    .about-card__card1 p{
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        top: 30%;
+        font-family: cursive;
+    }
+    .about-card__card2 p{
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        top: 30%;
+        font-family: cursive;
+    }
+    .about-card__card3 p{
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        top: 30%;
+        font-family: cursive;
+    }
+    button{
+        border: none;
+        outline: none;
+        position: relative;
+        left: 185px;
+        width:20px;
+        height: 20px;
+        top: 400px;
+        background: black;
+        border-radius: 50px;
+    }
+}
+
+
+
+
+@media(max-width:400px){
+    .section h1{
+        position: relative;
+        left:20px;
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .section hr{
+        position: relative;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 140px;
+        left: 160px;
+    } 
+    .section-main__card1{
+        padding: 20px;
+        width: 500px;
+        height: 500px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 24px;
+        box-shadow:3px 3px 2px white;
+        transition: 0.5s;
+        transform: scale(1);
+    }
+    .section-main__card1 h6{
+        position: relative;
+        font-size: 10px;
+    }
+    .section-main__card2{
+        padding: 20px;
+        width: 500px;
+        height: 500px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 24px;
+        box-shadow:3px 3px 2px white ;
+        transition: 0.5s;
+        transform: scale(1);
+    }
+    .section-main__card2 h6{
+        position: relative;
+        font-size: 10px;
+    }
+    .section-main__card3{
+        padding: 20px;
+        width: 500px;
+        height: 500px;
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 24px;
+        box-shadow:3px 3px 2px white ;
+        transition: 0.5s;
+        transform: scale(1);
+    }
+    .section-main__card3 h6{
+        position: relative;
+        font-size: 10px;
+    }
+    .skills__cards{
+        position: relative;
+        top: 90px;
+        left: 8%;
+        background: white;
+        width: 350px;
+        height: 310px;
+        border-radius: 12px;
+        padding: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.2rem;
+    }
+    .about-card__card1 p{
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        top: 30%;
+        font-family: cursive;
+    }
+    .about-card__card2 p{
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        top: 30%;
+        font-family: cursive;
+    }
+    .about-card__card3 p{
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        top: 30%;
+        font-family: cursive;
+    }
+    button{
+        border: none;
+        outline: none;
+        position: relative;
+        left: 110px;
+        width:20px;
+        height: 20px;
+        top: 400px;
+        background: black;
+        border-radius: 50px;
+    }
+    .div{
+        width: 200px;
+        height: 15px;
+        border-radius: 24px;
+        background: aqua;
+    }
+    .div2{
+        position: relative;
+        width: 27px;
+        height: 15px;
+        background: blue ;
+        left: 173px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+    .div2::after{
+        content: "90%";
+        position: relative;
+        top: -6px;
+        left: 35px;
+    }
+    .div3{
+        position: relative;
+        width: 40px;
+        height: 15px;
+        background: blue ;
+        left: 160px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+    .div3::after{
+        content: "80%";
+        position: relative;
+        top: -6px;
+        left: 47px;
+    }
+    .div4{
+        position: relative;
+        width: 45px;
+        height: 15px;
+        background: blue ;
+        left: 155px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+    .div4::after{
+        content: "75%";
+        position: relative;
+        top: -6px;
+        left: 50px;
+    }
+    .div5{
+        position: relative;
+        width: 50px;
+        height: 15px;
+        background: blue ;
+        left: 150px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+    .div5::after{
+        content: "70%";
+        position: relative;
+        top: -6px;
+        left: 55px;
+    }
+    .div6{
+        position: relative;
+        width: 60px;
+        height: 15px;
+        background: blue ;
+        left: 140px;
+        border-top-right-radius: 24px;
+        border-bottom-right-radius: 24px;
+    }
+    .div6::after{
+        content: "60%";
+        position: relative;
+        top: -6px;
+        left: 66px;
+    }
+}
